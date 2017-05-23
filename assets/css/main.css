@@ -161,6 +161,8 @@ footer{
 	padding: 2%;
 }
 
+
+
 li:hover{
 	color:orange;
 }
@@ -178,8 +180,9 @@ footer h5{
 	margin-top: -5%;
 }
 
+/*primer modal*/
 .inicia-sesion{
-	background-color: aqua;
+	background-color:#088A68;
 }
 
 .usuario{
@@ -192,6 +195,19 @@ footer h5{
  height:5%;
 
 }
+
+.cajita{ 
+	margin-top:5%;
+	background-color:white;
+	padding-left:15%;
+}
+
+#btn-amarillo{
+	background-color:yellow;
+	width: 35%;
+}
+
+
 .contrasena img{
  width:5%;
  height:5%;
