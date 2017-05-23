@@ -177,3 +177,22 @@ footer h5{
 	color: white;
 	margin-top: -5%;
 }
+
+.inicia-sesion{
+	background-color: aqua;
+}
+
+.usuario{
+	border-radius: 50%;
+	margin-top:8%;
+}
+
+.usuario img{
+ width:5%;
+ height:5%;
+
+}
+.contrasena img{
+ width:5%;
+ height:5%;
+}
