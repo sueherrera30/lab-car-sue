@@ -107,11 +107,11 @@ hr{
 }
 
 .conduce-texto{
-	background-color:black;
+	background-color:rgba(0,0,0,.5);
 	color: aliceblue;
 	margin-bottom: 7%;
 	padding:5%;
-	opacity: 0.6;
+	
 }
 
 .btn-naranja{
@@ -128,7 +128,7 @@ hr{
 }
 
 .form-control{
-	background-color: transparent;
+	background: transparent;
 	width:50%;
 	margin:3%;	
 	display: inline;
@@ -142,4 +142,38 @@ hr{
 	padding: 1%;
 		
 }
+.page-header{
+	color:white;
+	margin-bottom: 5%;
+}
+.page-heade img{
+width:40%;
 
+	
+}
+footer{
+	background-color:#636363;
+}
+
+.footer-listas li{
+	list-style: none;
+	color:white;
+	padding: 2%;
+}
+
+li:hover{
+	color:orange;
+}
+
+#logo1{
+	 margin-top:35%
+}
+
+#logo2{
+	margin-top: 3%;
+}
+
+footer h5{
+	color: white;
+	margin-top: -5%;
+}
