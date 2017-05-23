@@ -1,8 +1,9 @@
 var btnIniciarSesion=document.getElementById("iniciarSesion");
-console.log(btnIniciarSesion);
+ var regresa = document.getElementById("regresa");
+
 
 var iniciarSesion= document.getElementById("inicia-sesion");
-console.log("iniciarSesion");
+
 
 btnIniciarSesion.addEventListener("click",mostrarIniciarSesion);
 
@@ -10,4 +11,8 @@ function mostrarIniciarSesion(){
   iniciarSesion.style.display="block";
 }
 
+regresa.addEventListener("click",regresar);
 
+function regresar(){
+  iniciarSesion.style.display="none";
+}
