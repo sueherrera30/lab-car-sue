@@ -16,3 +16,4 @@ regresa.addEventListener("click",regresar);
 function regresar(){
   iniciarSesion.style.display="none";
 }
+
